@@ -1,0 +1,16 @@
+{
+    "id": "nureli-nav",
+    "name": "css动画底部导航栏",
+    "displayName": "css动画底部导航栏",
+    "version": "1.0.0",
+    "description": "css动画底部导航栏（css变量、外边圆弧、过渡）;",
+    "keywords": [
+        "nureli,底部导航栏"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

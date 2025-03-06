@@ -1,0 +1,88 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/subscribe/subscribe",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/AR/AR",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mall/mall",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"list": [{
+				"iconPath": "/static/taber/文物资源-copy.png",
+				"selectedIconPath": "/static/taber/文物资源.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"iconPath": "/static/taber/论坛.png",
+				"selectedIconPath": "/static/taber/论坛 (1).png",
+				"pagePath": "pages/subscribe/subscribe",
+				"text": "论坛"
+			},
+			{
+				"iconPath": "/static/taber/AR扫一扫.png",
+				"selectedIconPath": "/static/taber/AR扫一扫-选中.png",
+				"pagePath": "pages/AR/AR",
+				"text": "AR"
+			},
+			{
+				"iconPath": "/static/taber/购物.png",
+				"selectedIconPath": "/static/taber/购物-选中.png",
+				"pagePath": "pages/mall/mall",
+				"text": "商城"
+			},
+			{
+				"iconPath": "/static/taber/我的.png",
+				"selectedIconPath": "/static/taber/我的-选中.png",
+				"pagePath": "pages/my/my",
+				"text": "我的"
+			}
+
+		]
+	}
+}
